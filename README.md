@@ -1,6 +1,6 @@
 #theParser
 
-**Goal**: Create a data news wire.
+**Goal**: Create a newswire.
 
 Currently, this is the completed version of an mini-Google Alerts I created for a homework problem set focusing on OOP. 
 
