@@ -1,6 +1,6 @@
 #theParser
 
-**Goal**: Create a newswire.
+**Goal**: Create a newswire in Python that can run while I'm working from the command line.
 
 Currently, this is the completed version of an mini-Google Alerts I created for a homework problem set focusing on OOP. 
 
