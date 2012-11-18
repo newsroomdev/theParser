@@ -1,7 +1,23 @@
 #theParser
 
-**Goal**: Create a newswire in Python that can run while I'm working from the command line.
+*Note*: This is a completed homework assignment for MIT's 6.00x. I thought it was really cool though, so I decided to post it.
 
-Currently, this is the completed version of an mini-Google Alerts I created for a homework problem set focusing on OOP. 
+Directions: Run theParser from the command line using this code:
 
-Most of what I wrote is going to be in ps6.py, and that's the meat of this script. There are triggers located in triggers.txt for customizating it to fire when a word or phrase is located in the headline, summary or subject. Additional logic allows for creating simple 'and', 'or' and 'not' conditions for triggers.
+    mkdir theParser
+    cd theParser
+    python ps6.py
+
+To change the newsfeed, type
+
+    edit triggers.txt
+
+This newswire works by creating new 'triggers' which will fire articles to your newswire every 60 seconds. Customize your newswire using the following format in triggers.txt. A few examples have been provided already, but here are the specs:
+
+[trigger name] [trigger type] [trigger]
+
+  trigger name: an arbitrary name used to identify a particular trigger
+
+  trigger type: one or combinations of the following types can be expressed to customize your newswire (SUBJECT, TITLE, SUMMARY, PHRASE, AND, OR, NOT). The first three types state where to look for your keyword, PHRASE types look for phrases and the last three logic types can be used in conjunction with trigger names to create complex triggers.
+
+  trigger: a keyword, phrase or trigger name to be used in your new trigger.
