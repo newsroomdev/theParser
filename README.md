@@ -1,12 +1,12 @@
 #theParser
 
-*Note*: This is a completed homework assignment for MIT's 6.00x. I thought it was really cool though, so I decided to post it.
+*Note*: This is a completed homework assignment for MIT's 6.00x. I thought it was really cool though, so I decided to post it. Although I did well the course, this project is now deprecated. I'll be building other things, but welcome the pulls to spruce this up a bit.
 
 Directions: Run theParser from the command line using this code:
 
     mkdir theParser
     cd theParser
-    python ps6.py
+    python theParser.py
 
 To change the newsfeed, type
 
